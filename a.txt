@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title> My Basic Html</title>
+        <style>
+            table, th, td{
+                border:1px solid black;
+                border-radius:3px;
+                border-spacing:3px;
+            }
+            th {
+                background-color:lime;
+            }
+            td{
+                background-color:gold;
+            }
+            th, td{
+                padding:7px;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        <h1 align="center" style="background-color:powderblue">🔥Welcome to my web page🔥</h1>
+        <marquee><p style="color:red">This page has all the tags of html</p></marquee><br>
+        <pre>
+            Hello! Everyone,
+            Welcome to
+            my web page.
+        </pre>
+        <p><strong>Click the below links</strong></p>
+        <ul>
+            <li><a href="https://www.google.com">Google</a><br/><br/></li>
+            <li><a href="https://www.youtube.com">Youtube</a><br/><br/></li>
+            <li><a href="https://www.instagram.com">Instagram</a><br/><br/></li>
+            <li><a href="https://www.facebook.com">Facebook</a><br/><br/></li>
+        </ul>
+
+        <img src="sky.jpg" alt="sky" width="150" height="160">
+        <p><cite><q>The beautiful</q> </cite>lake.</p>
+        <!-- The hr tag is used to break the page
+        by creating a horizontal line-->
+        <hr>
+        <h3 align="center">Table:</h3>
+        <marquee><p style="color:red">This table gives the details of a person.</p></marquee>
+        <table align="center">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Place</th>
+                <th colspan="2">Phone no. and Email</th>
+            </tr>
+                <td>01</td>
+                <td>Nazeer</td> 
+                <td>Tenali</td>
+                <td>0123456789</td>
+                <td>nazeer@gmail.com</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Rocky</td>
+                <td>KGF</td>
+                <td>-</td>
+                <td>rocky@gmail.com</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Ramesh</td>
+                <td>Guntur</td>
+                <td>9876543210</td>
+                <td>ramesh@gmail.com</td>
+            </tr>
+        </table>
+        <hr>
+        <h3 align="center">form:</h3>
+        <form>
+            <label for="branch">Branch:</label><br/>
+            <input type="text" id="branch" name="Branch"><br/>
+
+        </form>
+
+
+
+
+
+
+
+    </body>  
+</html>
+    
+        
